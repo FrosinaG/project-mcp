@@ -1,0 +1,290 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+}
+p {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+div#navbar img {
+  float: left;
+  height: 100px;
+  margin-left: 40px;
+}
+
+div#navbar ul {
+  list-style: none;
+  float: right;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+div#navbar ul li {
+  display: inline;
+  margin: 5px;
+}
+div#navbar ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+/*navbar*/
+div#hero img {
+  margin-top: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+/*hero*/
+div#about {
+  background-color: ghostwhite;
+}
+div#about h2 {
+  text-align: center;
+  font-size: 25px;
+}
+div#about p {
+  line-height: 1.5;
+  text-align: center;
+  font-size: 18px;
+  color: gray;
+  padding: 40px 75px;
+  margin: 40px 60px;
+}
+/*about*/
+div#oursystem {
+  background-color: black;
+  padding: 10px;
+  margin: 10px;
+}
+div#oursystem h3 {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+div#oursystem p {
+  line-height: 1.5;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding: 40px 75px;
+  margin: 40px 60px;
+}
+/*oursystem*/
+div#ourservices {
+  background-color: ghostwhite;
+  padding: 10px;
+  margin: 10px;
+}
+div#ourservices h3 {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 25px;
+}
+div#ourservices p {
+  line-height: 1.5;
+  text-align: left;
+  font-size: 18px;
+  padding: 40px 75px;
+  margin: 40px 60px;
+}
+
+/*ourservices*/
+div#conteiner {
+  width: 80%;
+  margin: auto;
+  background-color: ghostwhite;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+.left-section {
+  float: left;
+  text-align: center;
+  width: 50%;
+}
+.right-section {
+  float: right;
+  text-align: center;
+  width: 50%;
+}
+
+/*conteiner code */
+div#references {
+  background-color: ghostwhite;
+  margin-top: 200px;
+}
+div#references h3 {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 40px;
+  padding-top: 50px;
+}
+div#references p {
+  line-height: 1.5;
+  text-align: center;
+  font-size: 18px;
+  padding: 40px 75px;
+  margin: 40px 60px;
+}
+
+div#references button {
+  float: left;
+  text-align: center;
+  font-size: 15px;
+  margin: 50px 100px 50px 200px;
+  padding: 5px 100px 5px 50px;
+  background: white;
+  border: none;
+}
+div#references button:hover {
+  cursor: pointer;
+  transform: scale(2);
+}
+/*references*/
+div#img {
+  margin: 0;
+  padding: 0;
+}
+.img img {
+  float: left;
+  height: 180px;
+  width: 32%;
+  padding: 1px;
+  margin: 0;
+}
+.img img:hover {
+  cursor: pointer;
+  transform: scale(2);
+}
+div.button {
+  text-align: center;
+  font-size: 30px;
+  border: inherit;
+}
+div.button button {
+  text-align: center;
+  border-radius: none;
+  background: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+div.button button:hover {
+  cursor: pointer;
+  background: black;
+  font-size: 25px;
+  color: white;
+}
+div#faq {
+  text-align: center;
+  font-size: 18px;
+  padding: 40px 75px;
+  margin: 40px 60px;
+}
+div#questions {
+  margin: 0;
+}
+.question-list {
+  text-align: left;
+  margin: 10px 200px;
+  padding: 10px 70px;
+}
+.question-list {
+  background: black;
+  color: white;
+}
+.question-list p {
+  display: none;
+}
+.question-list ol li,
+.answer {
+  display: none;
+}
+.question-list:hover .answer {
+  display: block;
+}
+.question-list:hover ol li {
+  display: block;
+}
+
+.question-list:hover {
+  cursor: help;
+}
+/*fqa*/
+
+
+
+.button2 button {
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  background: white;
+  color: black;
+}
+.button2 button:hover {
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+/*from*/
+div#footer {
+  margin-top: 50px;
+  padding: 30px 10px 30px 180px;
+}
+div#footer {
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: 20px;
+}
+div#footer a {
+  float: right;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: white;
+  text-decoration: none;
+}
+#containers-contact {
+  display: flex;
+}
+#contact {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px;
+}
+.center-section1,
+.left-section1,
+.right-section1 {
+  width: 100%;
+  margin: 0 40px;
+  padding: 40px;
+  text-align: center;
+}
+#form{
+	width: 60%;
+	margin: 0 auto;
+
+}
+.first input{
+	width: 47%;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+}
+.next textarea{
+	width: 95%;
+	height: 250px;
+}
